@@ -1,22 +1,5 @@
 # Imposter Game (Dart + Flutter)
 
-A simple imposter game implementation in Dart and Flutter. No login/demo accounts required; runs locally.
+## Project Overview
 
-## How to run (Flutter)
-
-1. Install Flutter (https://flutter.dev/docs/get-started/install).
-2. Open project folder `c:\Users\yamen\Desktop\imposter-dart`.
-3. Run:
-
-```
-flutter pub get
-flutter run
-```
-
-## How to run (Dart CLI)
-
-```
-dart run dart.dart
-```
-
-This uses console prompts to assign an imposter and secret word.
+This is a simple Imposter Game made using Flutter. Players take turns on one device, and one player is randomly chosen as the imposter. Other players see a word, but the imposter does not. The goal is to find who the imposter is.
